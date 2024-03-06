@@ -1,0 +1,824 @@
+/*========================================== MASTER STYLESHEET ===================================================================
+
+	Project     :	MATRIX - APP TEMPLATES
+	Version     :	1.0
+	Last Change : 	23/01/2017
+	Primary Use :   MATRIX - APP TEMPLATES
+
+=================================================================================================================================*/
+
+/*========================================== LAYOUT ===================================================================
+
+		1.GLOBAL STYLES
+		2.COMMON STYLES
+		3.THEME COLOR
+		4.NAVIGATION
+		5.BUTTON
+		6.HEADER		
+		7.BEST FOR YOU
+		8.JOBS MADE THROUGH	
+		9.MAIN FEATURES
+		10.HAND PICKED
+		11.CATEGORY
+		12.SKILLS
+		13.NEWS
+		14.FOOTER
+		15.MEDIA QUERIES	
+
+=================================================================================================================================*/
+
+/*========================================== COLOR CODES =========================================================================
+
+	Background         :#ffffff [white]
+	Theme Color        :#008ed6 [Blue]	
+	Main Heading Color :#333333 [Dark Gray]	
+	Content Color      :#666666 [light Gray]
+
+=================================================================================================================================*/
+
+/*========================================== TYPOGRAPHY =========================================================================
+
+	Heading:font-family: 'Bitter', serif;	
+	Body :font-family: 'Open Sans', sans-serif , Arial , Vedana  , Trebuchet MS;
+
+=================================================================================================================================*/
+
+/*========================================== 1.GLOBAL CSS START ===========================================*/
+
+@import url('https://fonts.googleapis.com/css?family=Bitter:400,400i,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+
+body {
+  background: #ffffff;
+  color: #666666;
+  font-family: 'Open Sans', sans-serif , Arial , Verdana , 'Trebuchet MS';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+a {
+  outline: none !important;
+  text-decoration: none !important;
+}
+
+p {
+  color: #666666;
+  margin: 0;
+}
+
+#header_p {  
+  color: #008ed6;
+  margin: 0;  
+}
+
+h2,
+h3 {
+  color: #333333;  
+}
+
+h1 {	
+	font-size:52px;
+	font-weight:400;	
+}
+
+h2 {
+	font-size:40px;
+	font-weight:400;	
+}
+
+h3 {
+  font-size: 25px;
+  margin-top:0;
+  margin-bottom:15px;
+}
+
+h4 {
+	font-size:20px;
+}
+
+h5 {	
+	font-size:18px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Bitter', serif;	
+	letter-spacing:1px;
+	text-transform: uppercase;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+/*========================================== 1.GLOBAL CSS END ===========================================*/
+
+/*========================================== 2.COMMON CSS START ===========================================*/
+
+.section-padding {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.section-1-bg {
+  background-color: #ffffff;
+}
+
+.section-2-bg {
+  background-color: #f5f5f5;
+}
+
+.section-3-bg {
+  background-color: #008ed6;
+}
+
+.heading-div {
+	padding-bottom:50px;
+}
+
+.heading-div > p {
+	font-size:16px;
+    letter-spacing:0.5px;
+    padding-top:12px;
+}
+
+.readmore {		
+	padding-top:15px;	
+}
+
+.col-sm-6.no_padding,
+.container-fluid.no_padding {
+	padding-left:0;
+	padding-right:0;
+}
+
+.job-row {
+	margin:0;
+}
+
+.section-3-bg h2 {	
+	font-size:30px;	
+}
+
+.section-3-bg p,
+.section-3-bg h4,
+.section-3-bg h3,
+.section-3-bg h2 a {
+	color:#ffffff;
+}
+
+.section-3-bg h4 {		
+	margin-top:0;	
+}
+
+.heading-div-dark {
+	padding-bottom:15px;
+}
+
+.ux-div h3 a {
+	color:#333333;
+}
+
+.sub-content {	
+	 font-size: 15px;	
+	 line-height:25px;
+	 padding-bottom:15px;
+	 padding-top:5px;
+}
+
+.readmore,
+.navbar-default .navbar-nav > li > a, 
+.btn,
+.header-div p,
+.deliver-date {		
+	text-transform:uppercase;
+}
+
+.readmore,
+.navbar-default .navbar-nav > li > a ,
+.header-div p,
+.deliver-date {	
+	letter-spacing:1px;	
+}
+
+.header-image,
+.job-made-img,
+.hand-img,
+.category-img,
+.popular-img,
+.download-section {	
+	background-position: center center;
+	background-size: cover;
+}
+
+.skill-col span,
+.header-div p,
+.section-3-bg h2,
+.sub-content,
+.btn {
+	font-weight:600;
+}
+
+.readmore,
+.navbar-default .navbar-nav > li > a {
+	font-weight: 700;   
+}
+
+/*========================================== 2.COMMON CSS END ===========================================*/
+
+/*========================================== 3.THEME COLOR START ============================================*/
+
+
+.navbar-default .navbar-nav.clearfix.fixed-header> li > a.active,
+.navbar-default .navbar-nav > li > a.active,
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover	{
+	background-color: none;
+	color: #008ed6 !important;	
+	border-bottom: 4px solid #008ed6;
+}
+
+.menu  a{   
+  transition: 0.3s ease; 
+}
+
+.menu a:hover {
+	color: #008ed6 !important;	
+	border-bottom: 4px solid #008ed6;  
+}
+
+.download-div span,
+.design-section span,
+.skill-col span,
+.hand-picked h5,
+.btn.btn-1,
+.readmore  a,
+.sub-content {
+	color:#008ed6;
+}
+
+.bottom-space {
+	padding-bottom:30px;
+}
+
+/*========================================== 3.THEME COLOR ENDS ============================================*/
+
+/*========================================== 4.NAVIGATION START ===========================================*/
+
+.navbar-default .navbar-nav > li > a {	
+	font-size: 12px;	
+	 padding: 7px 5px;  
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .open > a {
+  background-image: none;
+  box-shadow: none;
+  background-color: unset;
+}
+
+.navbar-brand, .navbar-nav > li > a {
+  text-shadow: none;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+  background-color: transparent;
+}
+
+.navbar-default {
+  background-color: transparent;
+  background-image: none;
+  border: 0px;
+}
+
+.navbar {
+  border-radius: 0;
+}
+
+.navbar-nav {
+	padding-top:21px;
+}
+
+.logo-image {
+	float:left;
+	padding-bottom:10px;
+	padding-top:10px;
+}
+
+.menu {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/*========================================== 4.NAVIGATION END ===========================================*/
+
+/*================================================ 5.BUTTON STRAT =========================================*/
+
+.btn {
+	background-color:#008ed6;
+	border: none;
+	border-radius: 0;
+	color: #ffffff;
+	cursor: pointer;
+	font-family: inherit;		
+	letter-spacing:0.5px;
+	outline: none;
+	padding: 10px 20px;
+	position: relative;
+	transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;	
+}
+
+.btn.header-btn {	
+	color: #ffffff;	
+}
+
+.btn.header-btn,
+.btn.btn-1 {
+	background-color:#008ed6;	
+}
+
+.btn.header-btn,
+.btn.download {
+	font-size:16px;
+}
+
+/*================================================ 5.BUTTON ENDS ==========================================*/
+
+/*======================================= 6.SECTION : HEADER START ========================================*/
+
+.header-image {
+	background-image: url("../../images/1500x780.jpg");	
+	padding-bottom:150px;
+	padding-top:200px;	
+}
+
+.header-div h1 {
+	color:#ffffff;	
+	letter-spacing:3px;
+	margin:40px 0;	
+}
+
+.header-div p {
+	color:#ffffff;
+	font-size:20px;	
+}
+
+.header-div button {
+	margin-top:40px;
+}
+
+/*============================================= 6.SECTION : HEADER END ======================================================*/
+
+/*============================================= 7.SECTION : BEST FOR YOU START ===============================================*/
+
+.best-div { 
+	text-align:center;
+}
+
+.best-div  img{ 
+	display:block;
+	margin:0 auto;
+	padding-bottom:30px;
+}
+
+.best-div p {	
+	margin:0 auto;
+	padding-bottom:25px;
+	width:80%;
+}
+
+.deliver-date {
+	font-size:12px;	
+}
+
+.ui-div img {
+	display:block;
+	margin:0 auto;
+	
+}
+
+/*============================================= 7.SECTION : BEST FOR YOU END ===============================================*/
+
+/*============================================= 8.SECTION : JOBS MADE THROUGH START ===============================================*/
+
+.job-made-img {
+	background-image: url("../../images/1000x700x1.jpg");	
+	height:662px;
+}
+
+.job-made-row {
+	margin:20px 0 0 0;	
+}
+
+.job-made-row > .col-sm-2 {
+	padding-left:0;
+	padding-right:0;
+    width:80px;
+}
+
+.job-made-col img {
+	padding-right:15px;
+}
+
+.job-section-1 {
+	padding:80px 90px 80px 40px;	
+}
+
+/*============================================= 8.SECTION : JOBS MADE THROUGH END ===============================================*/
+
+/*============================================= 9.SECTION : MAIN FEATURES START ===============================================*/
+
+.features-col ul {
+	padding-left:0;
+}
+
+.features-col li {
+	display:inline-block;
+	list-style:none;
+}
+
+.col-sm-4.features-col img {
+    display: table;
+	margin-right:15px;
+}
+
+.col-sm-4.features-col h3 {
+    display: table-cell;
+    margin-bottom: 0;
+}
+
+.features-div {
+	padding-bottom:30px;
+}
+
+/*============================================= 9.SECTION : MAIN FEATURES END ===============================================*/
+
+/*============================================= 10.SECTION : HAND PICKED START ===============================================*/
+
+.hand-picked {
+	padding:80px 40px 80px 90px;
+}
+
+.hand-picked h5 {
+	margin-bottom:20px;
+	margin-top:20px;
+}
+
+.hand-picked button {
+	margin-top:30px;
+}
+
+.para {
+	padding-top:20px;
+}
+
+.hand-img {
+	background-image: url("../../images/1000x700x2.jpg");	
+	height:660px;
+}
+
+/*============================================= 10.SECTION : HAND PICKED END ===============================================*/
+
+/*============================================= 11.SECTION : CATEGORY START ===============================================*/
+
+.category-img {
+	background-image: url("../../images/1000x300x1.jpg");	
+	height:300px;
+}
+
+.category-padding {
+	padding:0 90px 0 40px;	
+}
+
+.popular-img {
+	background-image: url("../../images/1000x300x2.jpg");	
+	height:300px;
+}
+
+.popular-padding {
+	padding:0 40px 0 90px;	
+}
+
+.popular-col button,
+.category-col button {
+	margin-top:30px;
+}
+
+.popular-section img {
+	padding-left:15px;
+}
+
+.col-sm-6.category-col.no_padding > img {
+    padding-right: 15px;
+}
+
+.popular-section,
+.category-section {
+	padding-bottom:80px;
+	padding-top:80px;	
+}
+
+/*============================================= 11.SECTION : CATEGORY END ===============================================*/
+
+/*============================================= 12.SECTION : SKILLS START ===============================================*/
+
+.skill-col h2 {
+	margin-top:0;
+}
+
+.skill-col p {
+	padding-top:20px;
+}
+
+.skill-border-1 {
+	border-bottom:16px solid #3abbdb;
+	margin-top:5px;
+	width:80%;
+}
+
+.skill-border-2 {
+	border-bottom:16px solid #ff6d85;
+	margin-top:5px;
+	width:100%;
+}
+
+.skill-border-3 {
+	border-bottom:16px solid #008ed6;
+	margin-top:5px;
+	width:90%;
+}
+
+.skill-set {
+	padding-top:10px;
+}
+
+/*============================================= 12.SECTION : SKILLS END ===============================================*/
+
+/*============================================= 13.SECTION : NEWS START ===============================================*/
+
+/*DESIGN SECTION*/
+.design-section-1 {
+	background:rgba(0,0,0,0.2);
+	padding-bottom:200px;
+	padding-top:200px;	
+}
+
+.design-section h2 {	
+	letter-spacing:3px;	
+}
+
+.design-section h2 a {
+	color:#ffffff;	
+}
+
+.news-col h3 {
+	margin-bottom:2px;
+}
+
+.news-col  .deliver-date {
+	margin-bottom:15px;
+}
+
+.news-img img {
+	border-radius:50%;
+}
+
+.col-sm-4.news-img {
+	width:360px;
+}
+
+.news-row-1 {
+	padding-bottom:50px;
+}
+
+/*============================================= 13.SECTION : NEWS END ===============================================*/
+
+/*============================================= 14.SECTION : FOOTER START ===============================================*/
+
+.download-section {
+	background-image: url("../../images/1500x640.jpg");	
+	padding-bottom:150px;
+	padding-top:150px;	
+}
+
+.download-div h2 {
+	color:#ffffff;
+	letter-spacing:3px;
+	line-height:48px;
+	margin-bottom:30px;
+	margin-top:30px;
+}
+
+.footer-div ul {	
+	padding-left:0;
+}
+
+.footer-div li {
+	display:inline-block;
+	list-style:none;
+	margin:0 5px;	
+}
+
+.footer-div  p { 
+	width:80%;
+	margin:0 auto;
+}
+
+.separator {
+	border-bottom:1px solid #dddddd;
+	margin-bottom:30px;
+	margin-top:30px;
+}
+
+/*============================================= 14.SECTION : FOOTER START ===============================================*/
+
+/*============================================= 15.SECTION : MEDIA QUERIES START ===============================================*/
+
+@media only screen and (min-width: 250px) and (max-width: 767px) {
+	.navbar-toggle.collapsed {
+		margin-top: 18px;
+	}
+	.menu {
+		padding-bottom:5px;		
+	}	
+	.navbar-default .navbar-nav > li > a {
+		display:inline-block;
+	}
+	.responsive-top-space {
+		margin-top:40px;
+	}	
+	.quick-div img {
+		margin:0 auto;
+	}	
+	.gallery-img-1 {
+		padding-top:30px;
+	}	
+	.news-col {
+		padding-top:30px;
+	}
+	.hand-picked,
+	.job-section-1.job-made-col {
+		padding:40px 15px 80px 15px;;
+	}
+	.popular-padding,
+	.category-padding {
+		padding:0 15px 0 15px;
+	}	
+	.gallery-div .bottom-space {
+		padding-bottom:0;
+	}
+}
+
+@media only screen and (min-width: 250px) and (max-width: 480px) { 
+	.ux-col-1,
+	.ux-div .col-sm-3.col-xs-6 {
+		display:block;
+		margin:0 auto;
+		padding-bottom:20px;
+		text-align:center;
+		width:100%;
+	}
+	.col-sm-4.news-img {
+		width: 100%;
+	}	
+	.header-div h1 {
+		font-size:40px;
+	}
+	.heading-div h2 {
+		font-size:38px;
+	}	
+	.ui-col {
+		display:block;		
+		margin:0 auto;		
+		padding-bottom:30px;
+		text-align:center;
+		width:100%;
+	}
+}
+
+@media only screen and (min-width: 250px) and (max-width: 359px) { 
+	.job-made-row .col-sm-10.col-xs-9,
+	.job-made-row .col-sm-2.col-xs-3 {
+		display:block;
+		margin:0 auto;
+		text-align:center;
+		width:100%;
+	}	
+	.job-made-row .col-sm-2.col-xs-3 > img {
+		padding-bottom:20px;
+	}	
+	.job-made-row .col-sm-10.col-xs-9 {
+		padding-bottom:10px;
+	}	
+	.job-made-row.job-last-row .col-sm-10.col-xs-9 {
+		padding-bottom:0;
+	}	
+	.heading-div-dark {
+		text-align:center;
+	}	
+	.footer-div li {
+		margin-left:1px;
+		margin-right:1px;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) { 	
+	.col-sm-4.news-img {
+		 width: 33.3333%;
+	}	
+	.ux-col {
+		padding-bottom:30px;
+	}	
+	.hand-picked-col,
+	.job-made-col,
+	.skill-col,
+	.popular-col,
+	.category-col,
+	.work-col,
+	.global-col {
+		display:block;
+		margin:0 auto;
+		text-align:center;
+		width:100%;
+	}		
+	.skill-col img,	
+	.work-col img,
+	.global-col img{
+		text-align:center;
+		margin:0 auto;
+	}	
+	.hand-picked-col,
+	.work-col,
+	.popular-col {
+		left:0;
+		right:0;
+	}		
+	.skill-col.responsive-top-space,
+	.popular-col.responsive-top-space,
+	.category-col.responsive-top-space,
+	.responsive-top-space.work-col,
+	.responsive-top-space.global-col {
+		margin-top:30px;
+	}	
+	.job-made-div,
+	.hand-picked-div,
+	.popular-div,
+	.category-div {
+		margin:0 auto;
+		width:750px;		
+	}			
+	.heading-div-dark,
+	.job-made-row {
+		text-align:left;
+	}	
+	.hand-picked,
+	.job-section-1.job-made-col {
+		padding:40px 15px 80px 15px;;
+	}	
+	.popular-padding,
+	.category-padding {
+		padding:0 15px 0 15px;
+	}	
+	.ui-col-1 {
+		padding-top:30px;
+	}
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) { 
+	.job-made-row > .col-sm-2 {
+		width: 70px;
+	}	
+	.section-3-bg h2 {
+		font-size:27px;
+	}	
+	.col-sm-4.news-img {
+		width: 320px;
+	}	
+	.hand-picked,
+	.popular-padding {
+		padding-left:19px;
+	}	
+	.job-section-1,
+	.category-padding {
+		padding-right:19px;
+	}
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1219px) { 
+	.job-made-row > .col-sm-2 {
+		width: 70px;
+	}		
+}
+
+/*============================================= 15.SECTION : MEDIA QUERIES END ===============================================*/
